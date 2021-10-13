@@ -1,0 +1,186 @@
+:root {
+    --header-color: #212121;
+    --Title-color: #212121;
+    --primary-text-color:#212121;
+    --second-text-color: #757575;   
+    --accent-color: #2196F3;
+    --primary-title-color: #212121;
+    --Logo-color-studio:#212121;
+    --Logo-color-web: #2196f3
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* Стиль логотипа */
+.class-logo-Web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--Logo-color-web);
+}
+.class-logo-studio{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--Logo-color-studio);
+}
+/* Стиль навигации */
+.class-nav  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-color);  
+}
+.class-nav:hover {color: var(--accent-color);}
+.class-nav:focus {color: var(--accent-color);}
+
+.class-mail-tel {
+color: var(--second-text-color);
+Font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+
+}
+.class-mail-tel:hover {color: var(--accent-color);}
+.class-mail-tel:focus {color: var(--accent-color);}
+.pointer {cursor: pointer;}
+
+/*стиль кнопок*/
+
+.style-button {
+color: var(--primary-title-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+}
+.style-button:hover {
+    color: var(--accent-color);
+}
+.style-button:focus {
+    color: var(--accent-color);
+
+}
+.class-button-page-first {
+ 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;    
+    
+}
+.class-button-page-first:hover {color: var(--accent-color);}
+.class-button-page-first:focus {color: var(--accent-color);}   
+
+/*стили заголовков*/
+
+.bg-baner{
+    background: #2F303A;
+}
+.class-title-h1 {
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.class-title-h2 {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--Title-color);
+}
+.class-title-h3-firstpage {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--Title-color);
+} 
+
+.class-Title-h3-studio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--Title-color);
+}
+.class-Title-h3-portfolio {
+color: var(--primary-text-color);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;}
+
+.class-text-studio {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);    
+}
+.class-name-job {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--second-text-color);    
+}
+.class-text-portfolio{
+
+}
+}
+
+
+/*классы футер*/
+
+
+.footer-logo {
+    color: #FFFFFF;
+    line-height: 31px;
+}
+
+.adress {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+font-style: normal;
+}
+
+.footer-mail-tel {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--second-text-color)
+
+}
+.footer-mail-tel:focus {color: var(--accent-color);}
+.footer-mail-tel:hover {color: var(--accent-color);}    
+
