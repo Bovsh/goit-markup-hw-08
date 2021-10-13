@@ -153,7 +153,11 @@ letter-spacing: 0.03em;
 color: var(--second-text-color);    
 }
 .class-text-portfolio{
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:var(--second-text-color);
 }
 }
 
