@@ -38,15 +38,36 @@ body {
     color: var(--Logo-color-studio);
 }
 /* Стиль навигации */
-.class-nav  {
+.site-nav  {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+    
+}
+.site-nav-item  {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-color);  
 }
-.class-nav:hover {color: var(--accent-color);}
-.class-nav:focus {color: var(--accent-color);}
+.site-nav-link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+}
+.current {
+    color: var(--accent-color);
+    } 
+.site-nav-link:hover {color: var(--accent-color);}
+.site-nav-link:focus {color: var(--accent-color);}
 
 .class-mail-tel {
 color: var(--second-text-color);
@@ -62,20 +83,26 @@ letter-spacing: 0.02em;
 /*стиль кнопок*/
 
 .style-button {
-color: var(--primary-title-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.03em;
-}
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;}
+
 .style-button:hover {
-    color: var(--accent-color);
+    color:#FFFFFF;
+    background-color: var(--accent-color);
 }
 .style-button:focus {
-    color: var(--accent-color);
-
+    color:#FFFFFF;
+    background-color: var(--accent-color);
 }
-.class-button-page-first {
+.button-page-first {
  
     font-weight: 700;
     font-size: 16px;
@@ -84,7 +111,8 @@ letter-spacing: 0.03em;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    background: #2196F3;    
     
 }
 .class-button-page-first:hover {color: var(--accent-color);}
@@ -95,7 +123,7 @@ letter-spacing: 0.03em;
 .bg-baner{
     background: #2F303A;
 }
-.class-title-h1 {
+.title-hero {
 font-style: 400;
 font-weight: 900;
 font-size: 44px;
@@ -105,16 +133,16 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-.class-title-h2 {
-font-weight: bold;
+.head-advantage {
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-
 color:var(--Title-color);
 }
-.class-title-h3-firstpage {
+
+.title-advantage {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -122,52 +150,79 @@ letter-spacing: 0.03em;
 color: var(--Title-color);
 } 
 
-.class-Title-h3-studio {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--Title-color);
-}
-.class-Title-h3-portfolio {
-color: var(--primary-text-color);
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;}
-
-.class-text-studio {
+.advantage-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);    
 }
-.class-name-job {
-font-weight: 400;
+.title-services {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--header-color);
+}
+
+.title-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--header-color);
+
+}
+.title-team-name {
+font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-
-color: var(--second-text-color);    
+color: var(--Title-color);
 }
-.class-text-portfolio{
-    font-weight: 400;
+
+.projects {
+
+}
+
+.projects-title {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);}
+
+.projects-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color:var(--second-text-color);
+
 }
+
+.title-work-position {
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--second-text-color);    
 }
+
+
 
 
 /*классы футер*/
 
 
 .footer-logo {
-    color: #FFFFFF;
-    line-height: 31px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
 }
 
 .adress {
