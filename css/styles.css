@@ -8,11 +8,23 @@
     --Logo-color-studio:#212121;
     --Logo-color-web: #2196f3
 }
+p,  h1, h2, h3, h4, h5, h6   {
+    margin: 0;
+    }
 
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 
 .list {
     list-style: none;
@@ -28,6 +40,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--Logo-color-web);
+    margin-right: 93px;
 }
 .class-logo-studio{
     font-family: Raleway;
@@ -38,6 +51,19 @@ body {
     color: var(--Logo-color-studio);
 }
 /* Стиль навигации */
+
+.nav-conteiner {
+    display: flex;
+    align-items: center;
+}
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+
 .site-nav  {
     font-family: Roboto;
     font-weight: 500;
@@ -53,8 +79,15 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-color);  
+    color: var(--header-color);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
 }
+.site-nav-item:not(:last-child) {
+    margin-right: 50px; 
+}
+
 .site-nav-link {
     font-family: Roboto;
     font-weight: 500;
@@ -80,6 +113,17 @@ letter-spacing: 0.02em;
 .class-mail-tel:focus {color: var(--accent-color);}
 .pointer {cursor: pointer;}
 
+
+.nav-mail-tel {
+    margin-left: auto;
+}
+.nav-mail {
+    margin-right: 50px;
+}
+
+.nav-tel {
+    margin-right: 100px;
+}
 /*стиль кнопок*/
 
 .style-button {
@@ -92,7 +136,11 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     background: #F5F4FA;
-    border-radius: 4px;}
+    
+    
+
+}
+
 
 .style-button:hover {
     color:#FFFFFF;
@@ -102,25 +150,15 @@ letter-spacing: 0.02em;
     color:#FFFFFF;
     background-color: var(--accent-color);
 }
-.button-page-first {
- 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;    
-    
-}
+
 .class-button-page-first:hover {color: var(--accent-color);}
 .class-button-page-first:focus {color: var(--accent-color);}   
 
 /*стили заголовков*/
 
-.bg-baner{
+.hero-baner{
+    width: 1600px;
+    height: 600px;
     background: #2F303A;
 }
 .title-hero {
@@ -132,7 +170,32 @@ letter-spacing: 0.06em;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
+padding: 200px 452px 0px 452px;
 }
+.button-page-first {
+ 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    margin-top: 30px;
+    margin-right: 700px;
+    margin-bottom: 210px;
+    margin-left: 700px;
+    
+ }
+ /*стили advantage */ 
+ .flex-advantage {
+display: flex;
+
+ }
 .head-advantage {
 font-weight: 700;
 font-size: 36px;
@@ -165,7 +228,10 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--header-color);
 }
+.flex-services {
+display: flex;
 
+}
 .title-team {
 font-weight: 700;
 font-size: 36px;
@@ -181,6 +247,11 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--Title-color);
+}
+
+.flex-team {
+    display: flex;
+
 }
 
 .projects {
