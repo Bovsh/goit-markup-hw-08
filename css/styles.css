@@ -25,12 +25,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ 
 
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
+}
+
+.header-size {
+    width: 1600px;
 }
 /* Стиль логотипа */
 .class-logo-Web {
@@ -60,7 +65,8 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-   
+   margin-right: 215px;
+   margin-left: 215px;
 }
 
 
@@ -171,7 +177,8 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 padding: 200px 452px 0px 452px;
-}
+min-width: 696px;
+margin-bottom: 50px;}
 .button-page-first {
  
     font-weight: 700;
@@ -193,9 +200,27 @@ padding: 200px 452px 0px 452px;
  }
  /*стили advantage */ 
  .flex-advantage {
-display: flex;
+display: flex; 
+flex-wrap: wrap;
+margin-top: 94px;
+margin-bottom: 94px;
+}
 
- }
+/*скрытый заголовок*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+ 
 .head-advantage {
 font-weight: 700;
 font-size: 36px;
@@ -203,6 +228,7 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--Title-color);
+
 }
 
 .title-advantage {
@@ -211,7 +237,17 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--Title-color);
+margin-bottom: 10px;
+
 } 
+.item-advantage {
+ width: 270px;
+ padding-right: 30px ;
+
+}
+.item-advantage:last-child {
+    padding-right: 0px ; 
+}
 
 .advantage-text {
     font-weight: 400;
@@ -227,11 +263,27 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--header-color);
+margin-bottom: 50px;
+
 }
 .flex-services {
 display: flex;
-
+flex-wrap: wrap;
+margin-left: -15px;
 }
+.flex-services-item {
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+.flex-services-item:last-child {
+    margin-right: 0px;
+}
+
+.flex-team {
+    display: flex;
+}
+
+
 .title-team {
 font-weight: 700;
 font-size: 36px;
@@ -239,21 +291,47 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--header-color);
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.team-item {
+margin-right: 50px;
+margin-left: -15px;
+margin-bottom: 94px;
+background-color: #fff;
 
 }
+.team-item:last-child {
+    margin-right: 0px;
+}
+
 .title-team-name {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--Title-color);
+margin-top: 30px;
+text-align: center; 
 }
 
-.flex-team {
-    display: flex;
+.title-work-position {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;}
 
+.bg-color-section-size {
+ background: #F5F4FA;
+ width: 1600px;   
 }
-
+.bg-color-section-size:nth-child(even) {
+background-color: #FFFFFF;
+}
 .projects {
 
 }
@@ -274,19 +352,22 @@ color: var(--primary-text-color);}
 
 }
 
-.title-work-position {
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--second-text-color);    
-}
-
-
-
-
 /*классы футер*/
 
+.footer {
+    background: #2F303A;
+    width: 1600px;
+    margin-left: 230px;
+    }
 
+.footer-logo-distance {
+    display: block ;
+    padding-top: 60px;
+}
+.footer-item {
+padding-top: 9px;
+
+}
 .footer-logo {
 color: #FFFFFF;
 font-weight: 700;
