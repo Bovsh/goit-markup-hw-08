@@ -368,6 +368,9 @@ color: var(--primary-text-color);}
 padding-top: 9px;
 
 }
+.footer-item:last-child {
+    padding-bottom: 60px;
+}
 .footer-logo {
 color: #FFFFFF;
 font-weight: 700;
