@@ -34,7 +34,7 @@ body {
     text-decoration: none;
 }
 
-.all-size {
+.conteiner {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
@@ -65,13 +65,13 @@ body {
     display: flex;
     align-items: center;
 }
-.conteiner {
+/*.conteiner {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
    margin-right: 215px;
    margin-left: 0px;
-}
+}*/
 
 
 .site-nav  {
