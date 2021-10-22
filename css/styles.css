@@ -182,8 +182,7 @@ justify-content: center;
 /*стили заголовков*/
 
 .hero-baner{
-    width: 1600px;
-    height: 600px;
+    
     background: #2F303A;
 }
 .title-hero {
@@ -192,30 +191,26 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
-text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
-padding: 200px 452px 0px 452px;
-min-width: 696px;
-margin-bottom: 50px;}
+padding-top: 200px;
+text-align: center;
+margin-bottom: 30px;
+}
 .button-page-first {
  
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-    margin-top: 30px;
-    margin-right: 700px;
-    margin-bottom: 210px;
-    margin-left: 700px;
-    
+    margin-bottom: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+
  }
  /*стили advantage */ 
  .flex-advantage {
@@ -346,7 +341,7 @@ text-align: center;
 
 .bg-color-section-size {
  background: #F5F4FA;
- width: 1600px;   
+  
 }
 .bg-color-section-size:nth-child(even) {
 background-color: #FFFFFF;
