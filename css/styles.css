@@ -16,6 +16,7 @@ p,  h1, h2, h3, h4, h5, h6   {
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 button {
@@ -27,21 +28,29 @@ body {
 
  
 
-.list {
-    list-style: none;
-}
-.link {
+ 
+a {
     text-decoration: none;
 }
 
 .conteiner {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 /* Стиль логотипа */
+.logo {
+margin-top: 25px;
+margin-right: 93px;
+margin-bottom: 24px;
+}
+
+.header-flex{
+    display: flex;
+}
+
 .class-logo-Web {
     font-family: Raleway;
     font-weight: 700;
@@ -60,18 +69,9 @@ body {
     color: var(--Logo-color-studio);
 }
 /* Стиль навигации */
-
-.nav-conteiner {
+.navigation {
     display: flex;
-    align-items: center;
 }
-/*.conteiner {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-   margin-right: 215px;
-   margin-left: 0px;
-}*/
 
 
 .site-nav  {
@@ -82,6 +82,7 @@ body {
     letter-spacing: 0.02em;
     
     color: #212121;
+    display: flex
     
 }
 .site-nav-item  {
@@ -90,8 +91,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-color);
-    margin-top: 32px;
-    margin-bottom: 32px;
+    display: flex
     
 }
 .site-nav-item:not(:last-child) {
@@ -105,6 +105,9 @@ body {
     line-height: 1.19;
     letter-spacing: 0.02em;
     color: var(--header-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
 }
 .current {
     color: var(--accent-color);
@@ -112,28 +115,31 @@ body {
 .site-nav-link:hover {color: var(--accent-color);}
 .site-nav-link:focus {color: var(--accent-color);}
 
-.class-mail-tel {
+.class-mail-tel{
 color: var(--second-text-color);
 Font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
-
 }
+
+ 
 .class-mail-tel:hover {color: var(--accent-color);}
 .class-mail-tel:focus {color: var(--accent-color);}
 .pointer {cursor: pointer;}
 
 
 .nav-mail-tel {
+    display: flex;
     margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
-.nav-mail {
+.contact-nav {
+    
     margin-right: 50px;
 }
+ 
 
-.nav-tel {
-    margin-right: 100px;
-}
 /*стиль кнопок*/
 
 .flex-examples {
