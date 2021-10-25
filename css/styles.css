@@ -40,6 +40,10 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* Стиль логотипа */
 .logo {
 margin-top: 25px;
@@ -190,18 +194,18 @@ justify-content: center;
 .hero-baner{
     
     background: #2F303A;
+    padding: 200px 0px;
+    text-align: center;
 }
 .title-hero {
-font-style: 400;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-padding-top: 200px;
-text-align: center;
 margin-bottom: 30px;
+
 }
 .button-page-first {
  
@@ -213,19 +217,15 @@ margin-bottom: 30px;
     background: #2196F3; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-    margin-bottom: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
+     
 
  }
 
- /* стиот відлв  */  
  /*стили advantage */ 
  .flex-advantage {
 display: flex; 
 flex-wrap: wrap;
-margin-top: 94px;
-margin-bottom: 94px;
+
 }
 
 /*скрытый заголовок*/
@@ -242,16 +242,7 @@ margin-bottom: 94px;
     margin: -1px;
   }
 
- 
-.head-advantage {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--Title-color);
-
-}
+  
 
 .title-advantage {
 font-weight: 700;
@@ -264,11 +255,11 @@ margin-bottom: 10px;
 } 
 .item-advantage {
  width: 270px;
- padding-right: 30px ;
+ margin-right: 30px ;
 
 }
 .item-advantage:last-child {
-    padding-right: 0px ; 
+    margin-right: 0px ; 
 }
 
 .advantage-text {
@@ -278,24 +269,24 @@ margin-bottom: 10px;
     letter-spacing: 0.03em;
     color: var(--second-text-color);    
 }
-.title-services {
+.title-section {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--header-color);
-margin-bottom: 50px;
+padding-bottom: 50px;
 
 }
 .flex-services {
 display: flex;
 flex-wrap: wrap;
-margin-left: -15px;
+
 }
 .flex-services-item {
     margin-right: 30px;
-    margin-bottom: 94px;
+   
 }
 .flex-services-item:last-child {
     margin-right: 0px;
@@ -305,7 +296,7 @@ margin-left: -15px;
     display: flex;
 }
 
-
+ 
 .title-team {
 font-weight: 700;
 font-size: 36px;
@@ -313,14 +304,11 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--header-color);
-margin-top: 94px;
-margin-bottom: 50px;
-}
+padding-bottom: 50px;
+} 
 
 .team-item {
-margin-right: 50px;
-margin-left: -15px;
-margin-bottom: 94px;
+margin-right: 30px;
 background-color: #fff;
 
 }
@@ -334,7 +322,6 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--Title-color);
-margin-top: 30px;
 text-align: center; 
 }
 
@@ -411,9 +398,10 @@ width: 322px;
 .footer-logo-distance {
     display: block ;
     padding-top: 60px;
+    padding-bottom: 20px;
 }
 .footer-item {
-padding-top: 9px;
+margin-top: 9px;
 
 }
 .footer-item:last-child {
