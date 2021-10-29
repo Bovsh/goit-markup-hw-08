@@ -27,7 +27,7 @@ body {
 a {
     text-decoration: none;
 }
-.img {
+img {
    display: block;
    max-width: 100%;
    height: auto;
@@ -344,6 +344,7 @@ margin-bottom: 10px;
      }
 .name-and-position {
     padding: 30px 0px;
+    
 }
 
 .bg-color-section-size {
