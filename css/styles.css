@@ -137,7 +137,7 @@ letter-spacing: 0.02em;
    
 }
 
-/*
+ 
 .icon-mail::before {
     display: inline-block;
     width: 16px;
@@ -145,7 +145,7 @@ letter-spacing: 0.02em;
     content: " ";
     align-content: center;
 
-    background-image: url(..);
+    background-image: url(../image/envelope.svg);
 
     background-repeat: no-repeat;
     background-size: contain;
@@ -158,11 +158,13 @@ letter-spacing: 0.02em;
     height: 12px;
     content: " ";
     align-content: center;
-     
-} */
-.aaaa{
-    fill: lawngreen;
-}
+    background-image: url(../image/smartphone.svg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 10px;
+} 
+ 
 .contact-nav{
     display: flex;
 }
