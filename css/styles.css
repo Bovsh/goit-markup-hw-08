@@ -583,11 +583,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.projects-link:hover .projects-description {
+.projects-link:hover .projects-description,  .projects-link:focus .projects-description {
     transform: translateY(0%);
    
 }
-
+ {
+    transform: translateY(0%);
+   
+}
  
 
 .projects-title {
