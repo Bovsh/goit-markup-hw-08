@@ -510,10 +510,17 @@
     </address>
     <div class="footer-form">
         <p class="footer-text">  Подпишитесь на рассылку </p>
-        <form class="form-email">
+        <form class="form-email" autocomplete="off">
             <label>
               <input class="input-email" type="email" name="email" placeholder="E-mail"  />
-              <button class="button-email" type="submit"><span class="button-text-footer">Подписаться</span></button>
+              <button class="button-email" type="submit"><span class="button-text-footer">Подписаться <svg class="form-button-sabmit" 
+                width="24" 
+                height="24"
+                >
+            <use href="./image/sprite.svg#icon-send">
+   
+                    </use>
+                </svg></span>  </button>
             </label>
           
         </div>
@@ -526,6 +533,7 @@
 
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
+     
       
   <button data-modal-close class="button-modal-style"> <svg class="button-modal" 
     width="11" 
@@ -535,7 +543,24 @@
 
         </use>
     </svg> </button>
+
+    <form class="modal-form">
+        <p class="text-modal">Оставьте свои данные, мы вам перезвоним</p>
+        <label for="name"> 
+            <input class="modal-input" type="" name="" id="" placeholder="">
+        </label>
+        <label for=""> 
+            <input class="modal-input" type="" name="" id="" placeholder="">
+        </label>
+        <label for=""> 
+            <input class="modal-input" type="" name="" id="" placeholder="">
+        </label>
+        <label for=""> 
+            <input class="modal-input" type="" name="" id="" placeholder="">
+        </label>
+    </form>
     </div>  
+    
 </div>
 <script src="./js/modal.js"></script>
 </body>
