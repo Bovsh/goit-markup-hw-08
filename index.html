@@ -543,22 +543,28 @@
 
         </use>
     </svg> </button>
-
-    <form class="modal-form">
+<div class="modal-form">
+    <form >
         <p class="text-modal">Оставьте свои данные, мы вам перезвоним</p>
-        <label for="name"> 
-            <input class="modal-input" type="" name="" id="" placeholder="">
+        <label for="name" > 
+            <p class="title-imput">Имя</p>
+            <input  class="modal-input" type="text" name="Name" id="name"    >
+            
+        </label> 
+        <label for="tel"> 
+            <p class="title-imput">Телефон</p>
+            <input class="modal-input" type="tel" name="tel" id="tel" placeholder="">
+        </label>
+        <label for="email"> 
+            <p class="title-imput">Почта</p>
+            <input class="modal-input" type="email" name="email" id="email" placeholder="">
         </label>
         <label for=""> 
-            <input class="modal-input" type="" name="" id="" placeholder="">
+            <p class="title-imput">Комментарий</p>
+           <textarea class="modal-textarea" name="comment" id="" cols="30" rows="10" placeholder=""> </textarea>
         </label>
-        <label for=""> 
-            <input class="modal-input" type="" name="" id="" placeholder="">
-        </label>
-        <label for=""> 
-            <input class="modal-input" type="" name="" id="" placeholder="">
-        </label>
-    </form>
+    </form> 
+</div>
     </div>  
     
 </div>
