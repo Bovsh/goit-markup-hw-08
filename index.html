@@ -546,23 +546,34 @@
 <div class="modal-form">
     <form >
         <p class="text-modal">Оставьте свои данные, мы вам перезвоним</p>
-        <label for="name" > 
-            <p class="title-imput">Имя</p>
-            <input  class="modal-input" type="text" name="Name" id="name"    >
-            
+        <label class="form-input-label"> 
+            <p class="title-input">Имя</p>
+            <input  class="modal-input" type="text" name="user-name" id="name">
+            <svg class="input-icon" width="12" height="12"> <use href='./image/sprite.svg#icon-name-modal'> </use> </svg>
         </label> 
-        <label for="tel"> 
-            <p class="title-imput">Телефон</p>
-            <input class="modal-input" type="tel" name="tel" id="tel" placeholder="">
+        <label class="form-input-label"> 
+            <p class="title-input">Телефон</p>
+            <input class="modal-input" type="tel" name="user-tel" id="tel" placeholder="" pattern="[0-9]{5,10}">
+            <svg class="input-icon" width="13" height="13"> <use href='./image/sprite.svg#icon-tel-modal'> </use> </svg>
         </label>
-        <label for="email"> 
-            <p class="title-imput">Почта</p>
-            <input class="modal-input" type="email" name="email" id="email" placeholder="">
+
+        <label class="form-input-label"> 
+            <p class="title-input">Почта</p>
+            <input class="modal-input" type="email" name="user-email" id="email" placeholder="">
+            <svg class="input-icon" width="15" height="12"> <use href='./image/sprite.svg#icon-mail-modal'> </use> </svg>
         </label>
-        <label for=""> 
-            <p class="title-imput">Комментарий</p>
-           <textarea class="modal-textarea" name="comment" id="" cols="30" rows="10" placeholder=""> </textarea>
+
+        <label> 
+            <p class="title-input">Комментарий</p>
+           <textarea class="modal-textarea" name="comments" id="comments" cols="30" rows="10" placeholder="Введите текст"></textarea> 
         </label>
+        <label class="checkbox-agreement">
+            <input type="checkbox" name="agreement" />  <p class="modal-checkbox" > Соглашаюсь с рассылкой и принимаю <a href=" "> Условия договора </a> </p>
+          
+          </label>
+          <label class="submit-button">
+        <BUtton type="submit" class="form-button-text">Отправить</Button>
+    </label>
     </form> 
 </div>
     </div>  
