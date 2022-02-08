@@ -591,10 +591,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0%);
    
 }
- {
-    transform: translateY(0%);
-   
-}
+ 
  
 
 .projects-title {
@@ -965,21 +962,32 @@ margin-bottom: 28px;
 width: 448px;
 height: 40px;
 margin-top: 4px;
-padding: 0 30px 0 30px;
+padding: 12px 30px 12px 42px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
 cursor: pointer;
+
 }
  
 .modal-input:focus, .modal-input:hover   {
     outline: none;
     border: 1px solid var(--accent-color);
+    transition-duration: 1000ms;
    
 }
-.modal-input:focus, .modal-input:hover + .input-icon {
+
+.modal-input:focus + .input-icon {
 fill: var(--accent-color);
+transition-duration: 250ms;
 }
+
+.modal-input:hover + .input-icon {
+    fill: var(--accent-color);
+    transition-duration: 500ms;
+    transform: rotate(360deg);
+    }
+
 
 .input-icon {
     
@@ -999,10 +1007,6 @@ position: relative;
 }
 
 
-
-
-
-
 .modal-textarea{
 resize: none;
 width: 448px;
@@ -1010,9 +1014,27 @@ height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px; 
-color: #2196F3; 
+color: black; 
 margin-top: 4px;
+padding-left: 16px;
 }
+
+.modal-textarea:hover, .modal-textarea:focus {
+    outline: none;
+    border: 1px solid var(--accent-color);
+    transition-duration: 1000ms;
+}
+
+ ::placeholder {
+
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.2;
+color: rgba(117, 117, 117, 0.5);
+
+}
+
+ 
 
 .modal-checkbox {
 font-family: Roboto;
