@@ -1044,15 +1044,25 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
-padding-left: 8.38px;
+padding-left: 20px;
 }
 
 .checkbox-agreement {
-    display: flex;
+    
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+ 
+}
 
+.checkbox {
+    appearance: none;
+}
+.icon-checkbox {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-color: red;
 }
 .submit-button {
 display: flex;
