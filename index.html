@@ -532,9 +532,9 @@
 
 
 <div class="backdrop is-hidden" data-modal>
+
   <div class="modal">
-     
-      
+           
   <button data-modal-close class="button-modal-style"> <svg class="button-modal" 
     width="11" 
     height="11"
@@ -542,44 +542,46 @@
 <use href="./image/sprite.svg#icon-Vector">
 
         </use>
-    </svg> </button>
-<div class="modal-form">
-    <form >
+    </svg> 
+</button>
+
+    
+    <form class="modal-form"> 
         <p class="text-modal">Оставьте свои данные, мы вам перезвоним</p>
         
+       
         <label class="form-input-label"> 
-            <p class="title-input">Имя</p>
+            Имя
             <input  class="modal-input" type="text" name="user-name" id="name">
             <svg class="input-icon" width="12" height="12"> <use href='./image/sprite.svg#icon-name-modal'> </use> </svg>
         </label> 
 
         <label class="form-input-label"> 
-            <p class="title-input">Телефон</p>
+            Телефон
             <input class="modal-input" type="tel" name="user-tel" id="tel" placeholder="" pattern="[0-9]{5,10}">
             <svg class="input-icon" width="13" height="13"> <use href='./image/sprite.svg#icon-tel-modal'> </use> </svg>
         </label>
 
         <label class="form-input-label"> 
-            <p class="title-input">Почта</p>
+            Почта
             <input class="modal-input" type="email" name="user-email" id="email" placeholder="">
             <svg class="input-icon" width="15" height="12"> <use href='./image/sprite.svg#icon-mail-modal'> </use> </svg>
         </label>
 
-        <label> 
-            <p class="title-input">Комментарий</p>
+        <label class="comment"> 
+            Комментарий
            <textarea class="modal-textarea" name="comments" id="comments" cols="30" rows="10"  placeholder= "Введите текст"></textarea> 
         </label>
 
         <label class="checkbox-agreement">
-            <input class="checkbox" type="checkbox" name="agreement" />  <p class="modal-checkbox" > Соглашаюсь с рассылкой и принимаю <a href=" "> Условия договора </a> </p>
-          <span class="icon-checkbox"> </span>
+            <input class="checkbox" type="checkbox" name="agreement" />  
+            <span class="icon-checkbox"> </span>
+            <span class="modal-checkbox" > Соглашаюсь с рассылкой и принимаю <a href=" "> Условия договора </a> </span>
+          
           </label>
-          <label class="submit-button">
-
         <Button type="submit" class="form-button-text">Отправить</Button>
-    </label>
-    </form> 
-</div>
+
+    </form>    
     </div>  
     
 </div>
