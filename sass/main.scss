@@ -1,0 +1,18 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+
+
+@import "./layout/header/logo";
+@import "./layout/header/navigation";
+@import "./layout/footer/contacts";
+@import "./layout/footer/form";
+@import "./layout/studio/advantages";
+@import "./layout/studio/banner";
+@import "./layout/studio/clients";
+@import "./layout/studio/conteiner-section";
+@import "./layout/studio/services-team";
+@import "./layout/portfolio/projects";
+
+@import "./components/modal-form";
+@import "./components/modal-window";
