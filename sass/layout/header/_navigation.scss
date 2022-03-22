@@ -4,7 +4,7 @@
 }
 
 
-.site-nav  {
+.nav  {
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
@@ -14,7 +14,7 @@
     display: flex
     
 }
-.site-nav-item  {
+.nav__item  {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -29,7 +29,7 @@
 
  
 
-.site-nav-link {
+.nav__link {
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
@@ -69,7 +69,7 @@
 
 
     
-.class-mail-tel{
+.nav-mail-tel{
 display: flex;
 align-items: center;
 color: var(--second-text-color);
@@ -86,7 +86,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    }
 }
 
-.tel-icon {
+.nav-icon {
     margin-right: 10px;
 }
 
