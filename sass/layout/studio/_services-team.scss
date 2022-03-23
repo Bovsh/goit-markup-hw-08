@@ -126,8 +126,8 @@
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     
-    .social-link:hover &,
-    .social-link:focus &{
+    .social-list__link:hover &,
+    .social-list__link:focus &{
         fill: #ffffff;
     }
 }
