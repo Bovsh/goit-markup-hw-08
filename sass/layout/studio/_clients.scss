@@ -30,8 +30,8 @@
     &:hover, :focus{
         border-color:  var(--accent-color);
         }
-    &:hover .client-icon,
-    &:focus .client-icon {
+    &:hover .client-list__icon,
+    &:focus .client-list__icon {
     fill: var(--accent-color);
     cursor: pointer;   
 }

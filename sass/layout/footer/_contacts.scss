@@ -70,13 +70,13 @@ color:#FFFFFF;
 
 }
 
-.footer-social-list {
+.footer-social__list {
         display: flex; 
         justify-content: center; 
         margin-top: 20px;
 }
 
-.footer-social-item {
+.footer-social__item {
     width: 44px;
     height: 44px;
     margin-right: 10px;
@@ -86,7 +86,7 @@ color:#FFFFFF;
     }
 }
 
-.footer-social-link{
+.footer-social__link{
     width: 100%;
     height: 100% ;
     border-radius: 50%;
@@ -104,7 +104,7 @@ color:#FFFFFF;
     }
  
 
-.footer-social-icon{
+.footer-social__icon{
     fill: #ffffff;
      }
 
