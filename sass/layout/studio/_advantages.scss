@@ -1,73 +1,73 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .advantage {
-    display: flex; 
-     }
-    
-   
-    .visually-hidden {
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
-      }
-
-    .advantage__item {
-        width: 270px;
-        margin-right: 30px ;
-
-        &:last-child {
-            margin-right: 0px ; 
-        }
-       }
-       
-
-      .advantage__icon {
+  @media screen and (min-width: 768px) {
+    width: 768px;
     display: flex;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px; 
-    align-content: center; 
     flex-wrap: wrap;
-    margin-bottom: 30px;
-     }
-    
-    
-    .advantage__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--Title-color);
-    margin-bottom: 10px;
-    } 
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    display: flex;
+  }
+}
 
-    
-    .adventage-list-icon {
-        display: flex;
+.advantage__item {
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 2 - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 4 - 30px);
+
+    &:last-child {
+      margin-right: 0px;
     }
-     
-    
-    
-    .item-advantage {
-     width: 270px;
-     margin-right: 30px ;
-     
-     &:last-child {
-        margin-right: 0px ; 
-    }
-    }
-     
-    .advantage__text {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--second-text-color);    
-    }
+  }
+}
+
+.advantage__icon {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.advantage__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--Title-color);
+  margin-bottom: 10px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.advantage__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
