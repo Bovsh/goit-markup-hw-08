@@ -555,7 +555,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .title-section {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     font-size: 36px;
   }
 }
@@ -572,6 +572,12 @@ img {
 
 .work-section {
   padding-top: 0px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .work-section {
+    display: contents;
+  }
 }
 
 .services__item {
