@@ -167,8 +167,9 @@
                 
                 media="(min-width: 320px)"
                 />
-             <img src="./image/img-team-1-desk-1x.jpg" 
-alt="Игорь Демьяненко. Product Designer" 
+             <img 
+             src="./image/img-team-1-desk-1x.jpg" 
+            alt="Игорь Демьяненко. Product Designer" 
 />    
             </picture>
 
@@ -227,6 +228,7 @@ alt="Игорь Демьяненко. Product Designer"
         </li>  
         
         <li class="team__item"> 
+            <picture> 
             <source
                 srcset="
                 ./image/img-team-2-desk-1x.jpg 1x, 
@@ -247,14 +249,12 @@ alt="Игорь Демьяненко. Product Designer"
                 ./image/img-team-2-tel-2x.jpg 2x "
                 
                 media="(min-width: 320px)"
-
-                
-                />
+                             />
          <img  src="./image/img-team-2-desk-1x.jpg" 
          alt="Ольга Репина. Frontend Developer" 
-         width="270" 
-         height="260"/> 
-         
+        /> 
+         </picture>
+
         <div class="info-card">
         <h3 class="info-card__name">Ольга Репина </h3>  
         <p class="info-card__position">Frontend Developer</p> 
@@ -312,7 +312,32 @@ alt="Игорь Демьяненко. Product Designer"
         </li>    
 
         <li class="team__item">
-                <img  src="./image/img-team-3-desk-1x.jpg" alt="Николай Тарасов. Marketing" width="270" height="260"/> 
+            <picture>
+                <source
+                srcset="
+                ./image/img-team-3-desk-1x.jpg 1x, 
+                ./image/img-team-3-desk-2x.jpg 2x "
+                
+                media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-3-tab-1x.jpg 1x, 
+                ./image/img-team-3-tab-2x.jpg 2x "
+                
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-3-tel-1x.jpg 1x, 
+                ./image/img-team-3-tel-2x.jpg 2x "
+                
+                media="(min-width: 320px)"
+                />
+              <img  src="./image/img-team-3-desk-1x.jpg" alt="Николай Тарасов. Marketing" /> 
+            </picture>
+            
+              
     <div class="info-card">
             <h3 class="info-card__name">Николай Тарасов </h3>  
         <p class="info-card__position">Marketing</p> 
@@ -369,7 +394,32 @@ alt="Игорь Демьяненко. Product Designer"
     </li>    
 
      <li class="team__item">
-        <img  src="./image/img-team-4-desk-1x.jpg" alt="Михаил Ермаков. UI Designer" width="270" height="260"/> 
+          <picture>
+                <source
+                srcset="
+                ./image/img-team-4-desk-1x.jpg 1x, 
+                ./image/img-team-4-desk-2x.jpg 2x "
+                
+                media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-4-tab-1x.jpg 1x, 
+                ./image/img-team-4-tab-2x.jpg 2x "
+                
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-4-tel-1x.jpg 1x, 
+                ./image/img-team-4-tel-2x.jpg 2x "
+                
+                media="(min-width: 320px)"
+                />
+              <img  src="./image/img-team-4-desk-1x.jpg" alt="Михаил Ермаков. UI Designer"/> 
+            </picture>
+
+        
         <div class="info-card">
             <h3 class="info-card__name">Михаил Ермаков </h3>  
             <p class="info-card__position">UI Designer</p>
