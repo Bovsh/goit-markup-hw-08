@@ -24,7 +24,7 @@
   </head>
 
   <body>
-    <!--  <header class="box">
+   <!-- <header class="box">
             <div class="conteiner navigation">
                 <nav class="header" >
                   <a class="logo-Web logo" href=""> Web<span class="logo-studio ">Studio</span>   </a>
@@ -48,15 +48,19 @@
                     <li class="contact-nav"> <a class="nav-mail-tel" href="tel:+380961111111"><svg class="nav-icon " width="10" 
                         height="16"> <use  href="./image/sprite.svg#icon-smartphone-1"> </use></svg>  +38 096 111 11 11</a>   </li> 
                 </ul>
+                 <button type="button"> <svg width="40" height="40"> 
+                    <use href="./image/menu-cross.svg#cross"> </use>
+                    <use href="./image/menu-cross.svg#menu"> </use>
+                </svg></button> 
             </div>       
-            </header> -->
+            </header>  -->
 
     <main>
-      <!--  <section class="hero-baner">
-            <h1 class="title-hero">Эффективные решения <br> для вашего бизнеса</h1>
+       <section class="hero-baner">
+            <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
             <button data-modal-open class="button-page-first " type="button ">Заказать услугу</button >
-    </section> -->
-      <section class="section">
+    </section>
+      <!-- <section class="section">
         <div class="conteiner">
           <h2 class="title-section visually-hidden">Наши преимущества</h2>
           <ul class="advantage">
@@ -111,9 +115,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       
-     <section class="section work-section">
+     <!-- <section class="section work-section">
         <div class="conteiner">
             <h2 class="title-section">Чем мы занимаемся</h2>
             <ul class="services">
@@ -133,7 +137,7 @@
             </li>
             </ul>
         </section>
-        </div>
+        </div> -->
     
  
     <section  class="section team-section">
@@ -141,7 +145,33 @@
         <h2  class="title-section ">Наша команда</h2>
         <ul class="team">
         <li class="team__item">
-<img src="./image/img(4).jpg" alt="Игорь Демьяненко. Product Designer" width="270" height="260"/> 
+            <picture>
+                <source
+                srcset="
+                ./image/img-team-1-desk-1x.jpg 1x, 
+                ./image/img-team-1-desk-2x.jpg 2x "
+                
+                media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-1-tab-1x.jpg 1x, 
+                ./image/img-team-1-tab-2x.jpg 2x "
+                
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-1-tel-1x.jpg 1x, 
+                ./image/img-team-1-tel-2x.jpg 2x "
+                
+                media="(min-width: 320px)"
+                />
+             <img src="./image/img-team-1-desk-1x.jpg" 
+alt="Игорь Демьяненко. Product Designer" 
+/>    
+            </picture>
+
 <div class="info-card">
     <h3 class="info-card__name">Игорь Демьяненко </h3>  
     <p class="info-card__position">Product Designer</p>
@@ -197,7 +227,34 @@
         </li>  
         
         <li class="team__item"> 
-         <img  src="./image/img(5).jpg" alt="Ольга Репина. Frontend Developer" width="270" height="260"/> 
+            <source
+                srcset="
+                ./image/img-team-2-desk-1x.jpg 1x, 
+                ./image/img-team-2-desk-2x.jpg 2x "
+                
+                media="(min-width: 1200px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-2-tab-1x.jpg 1x, 
+                ./image/img-team-2-tab-2x.jpg 2x "
+                
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset="
+                ./image/img-team-2-tel-1x.jpg 1x, 
+                ./image/img-team-2-tel-2x.jpg 2x "
+                
+                media="(min-width: 320px)"
+
+                
+                />
+         <img  src="./image/img-team-2-desk-1x.jpg" 
+         alt="Ольга Репина. Frontend Developer" 
+         width="270" 
+         height="260"/> 
+         
         <div class="info-card">
         <h3 class="info-card__name">Ольга Репина </h3>  
         <p class="info-card__position">Frontend Developer</p> 
@@ -255,7 +312,7 @@
         </li>    
 
         <li class="team__item">
-                <img  src="./image/img(6).jpg" alt="Николай Тарасов. Marketing" width="270" height="260"/> 
+                <img  src="./image/img-team-3-desk-1x.jpg" alt="Николай Тарасов. Marketing" width="270" height="260"/> 
     <div class="info-card">
             <h3 class="info-card__name">Николай Тарасов </h3>  
         <p class="info-card__position">Marketing</p> 
@@ -312,7 +369,7 @@
     </li>    
 
      <li class="team__item">
-        <img  src="./image/img(7).jpg" alt="Михаил Ермаков. UI Designer" width="270" height="260"/> 
+        <img  src="./image/img-team-4-desk-1x.jpg" alt="Михаил Ермаков. UI Designer" width="270" height="260"/> 
         <div class="info-card">
             <h3 class="info-card__name">Михаил Ермаков </h3>  
             <p class="info-card__position">UI Designer</p>
@@ -446,7 +503,7 @@
                   
             </ul>
         </section>
-        </div> -->
+        </div> 
     </main>
 
     <!--  <footer class="footer ">
@@ -542,7 +599,7 @@
 
 </div>
  
-</footer>
+</footer> -->
 
 
 <div class="backdrop is-hidden" data-modal>
@@ -599,6 +656,6 @@
     
 </div>  
 </div>
-<script src="./js/modal.js"></script> -->
+<script src="./js/modal.js"></script> 
   </body>
 </html>

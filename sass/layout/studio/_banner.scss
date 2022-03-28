@@ -1,6 +1,6 @@
 .hero-baner {
   background-color: #2f303a;
-  padding: 200px 0px;
+  padding: 118px 0px;
   text-align: center;
   max-width: 1600px;
   max-height: 600px;
@@ -11,20 +11,75 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../image/backgr-img.jpg");
+    url("../image/backgr-img-tel-1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/backgr-img-tel-2x.jpg");
+  }
+
+  @include tab {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/backgr-img-tab-1x.jpg");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../image/backgr-img-tab-2x.jpg");
+    }
+  }
+
+  @include desk {
+    padding: 200px 0px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../image/backgr-img-desk-1x.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../image/backgr-img-desk-2x.jpg");
+    }
+  }
+}
 .title-hero {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+
+  @include desk {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 .button-page-first {
   font-weight: 700;
